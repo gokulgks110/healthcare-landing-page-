@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Healthcare | Smarter Patient Engagement</title>
+<style>
+:root{--navy:#12304a;--blue:#2377d8;--mint:#dff7ef;--ink:#183047;--muted:#617487;--bg:#f5f9fc}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:white;line-height:1.6}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e7eef4}
+.brand{font-size:23px;font-weight:800;color:var(--navy)}.brand span{color:var(--blue)}
+nav a{margin-left:24px;color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}
+.btn{display:inline-block;background:var(--blue);color:white;text-decoration:none;padding:13px 21px;border-radius:9px;font-weight:700}
+.hero{padding:76px 7%;background:linear-gradient(120deg,#eff8ff,#f2fcf8);display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+.eyebrow{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:1.4px;font-size:12px}
+h1{font-size:clamp(36px,5vw,58px);line-height:1.1;color:var(--navy);margin:14px 0}
+.hero p{font-size:18px;color:var(--muted);max-width:620px}
+.visual{background:white;border-radius:22px;padding:28px;box-shadow:0 18px 50px #12304a18}
+.visual h3{margin:0 0 18px}.metric{background:var(--mint);padding:16px;border-radius:12px;margin:12px 0}.metric strong{font-size:27px;color:#087b5a;display:block}
+.pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.pill{background:white;border:1px solid #dce8f0;padding:8px 12px;border-radius:30px;font-size:13px}
+section{padding:65px 7%}.center{text-align:center}h2{font-size:34px;color:var(--navy);margin:0 0 12px}.sub{color:var(--muted);max-width:680px;margin:0 auto 32px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:25px;border:1px solid #e4edf3;border-radius:16px;background:white}.ico{font-size:27px}.card h3{margin:10px 0 6px;color:var(--navy)}.card p{margin:0;color:var(--muted)}
+.benefits{background:var(--bg)}.benefit-list{max-width:760px;margin:25px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left}.benefit{background:white;padding:16px;border-radius:12px}
+.cta{background:var(--navy);color:white;text-align:center}.cta h2{color:white}.cta p{color:#d7e5ef;max-width:620px;margin:0 auto 25px}.cta .btn{background:#49c6a1;color:#092d3b}
+footer{padding:25px 7%;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+@media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:50px}.grid{grid-template-columns:1fr}.benefit-list{grid-template-columns:1fr}section{padding:48px 6%}}
+</style>
+</head>
+<body>
+<header><div class="brand">Healthcare<span>.</span></div><nav><a href="#features">Features</a><a href="#benefits">Benefits</a><a href="#contact">Contact</a></nav><a class="btn" href="#contact">Book a demo</a></header>
+<main>
+<section class="hero">
+<div><div class="eyebrow">Patient engagement made simpler</div><h1>Less admin. More time for patient care.</h1>
+<p>Help your outpatient clinic simplify appointment reminders, digital check-ins and patient follow-ups with one easy-to-use platform.</p>
+<a class="btn" href="#contact">Request a 10-minute demo</a>
+<div class="pills"><span class="pill">Smart reminders</span><span class="pill">Digital check-in</span><span class="pill">EHR integration options</span></div></div>
+<div class="visual"><h3>Your clinic, running smoother</h3><div class="metric"><strong>Up to 35%</strong> fewer missed appointments*</div><div class="metric"><strong>10+ hours</strong> of staff time saved per week*</div><p style="font-size:12px;color:#718294">*Illustrative performance claims from the product pitch; actual results vary by clinic.</p></div>
+</section>
+<section id="features" class="center"><h2>Everything your front desk needs</h2><p class="sub">Reduce repetitive admin work and make each step of the patient journey easier.</p>
+<div class="grid">
+<div class="card"><div class="ico">📅</div><h3>Smart appointment reminders</h3><p>Send timely reminders to help patients remember upcoming visits.</p></div>
+<div class="card"><div class="ico">📲</div><h3>Digital check-ins</h3><p>Let patients complete check-in steps before they arrive.</p></div>
+<div class="card"><div class="ico">🔗</div><h3>Workflow integration</h3><p>Designed to fit into clinic workflows, with EHR integration options to be confirmed for your system.</p></div>
+</div></section>
+<section class="benefits" id="benefits"><div class="center"><h2>Give your team time back</h2><p class="sub">A smoother administrative experience can help your staff focus on welcoming and supporting patients.</p></div>
+<div class="benefit-list"><div class="benefit">✓ Reduce manual follow-up tasks</div><div class="benefit">✓ Help patients stay informed</div><div class="benefit">✓ Make check-in more convenient</div><div class="benefit">✓ Keep clinic workflows organized</div></div></section>
+<section class="cta" id="contact"><h2>See how it could work for your clinic</h2><p>Book a quick 10-minute product demo. We’ll walk through reminders, check-ins and the workflow options for your clinic.</p><a class="btn" href="mailto:YOUR_EMAIL@example.com?subject=Healthcare%20platform%20demo">Request a demo</a><p style="font-size:13px;margin-top:18px">Replace YOUR_EMAIL@example.com with your contact email before sharing.</p></section>
+</main>
+<footer><strong>Healthcare.</strong><span>Patient engagement platform</span><span>Contact: YOUR_EMAIL@example.com</span></footer>
+</body></html>
